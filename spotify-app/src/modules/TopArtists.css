@@ -1,0 +1,35 @@
+
+.artist-card-container{
+    /* margin: 0 auto; */
+    outline: 1px solid red;
+    display: grid;
+    grid-template-rows: 1fr 1fr auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    /* margin: 0 auto; */
+    
+}
+.artist-card{
+    /* display: inline-block; */
+    /* outline: 1px solid red; */
+    width: 90%;
+    height: 90%;
+    margin: 1rem;
+}
+.artist-card > img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.artist-card > p{
+    text-align: center;
+}
+
+@media (max-width: 1000px){
+    .artist-card-container{
+        grid-template-columns: 1fr 1fr;
+    }
+}

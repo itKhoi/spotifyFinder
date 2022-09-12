@@ -1,0 +1,9 @@
+
+.track-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr auto;
+    width: 50%;
+    margin: 0 auto;
+    grid-gap: 1rem;
+}

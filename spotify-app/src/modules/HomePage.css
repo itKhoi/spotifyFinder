@@ -1,0 +1,38 @@
+.home-page-container{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    /* outline: 1px solid red; */
+    overflow: hidden;
+    background-color: rgb(186, 240, 215)
+}
+.home-content-container{
+    position: absolute;
+    left:50%;
+    top: 30%;
+    transform: translate(-50%,-50%);
+}
+.home-page-container > .home-content-container > h1{
+    margin: 0 auto;
+    text-align: center;
+    /* outline: 1px solid red; */
+}
+.home-button{
+    /* width: 100%; */
+    /* padding: 20px 0px; */
+    margin: 20px auto;
+}
+
+.home-button .btn{
+    width: 100%;
+    background-color: rgb(46, 170, 83);
+    border: none;
+}
+
+.option-buttons{
+    /* border: 1px solid red; */
+    width: 100%;
+    outline:none;
+    /* border:1px solid red; */
+}
